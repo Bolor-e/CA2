@@ -156,7 +156,7 @@ public class Mainmenu {
         String name = scanner.nextLine();
 
         //Pick a manager type
-        print("Select Manager Type:");
+        print("Choose Manager Type:");
         for (int i = 0; i < JobPosition.values().length; i++) {
             print((i + 1) + ". " + JobPosition.values()[i]);
         }
@@ -164,7 +164,7 @@ public class Mainmenu {
         scanner.nextLine(); // Clear newline
 
         // Pick a department
-        print("Select Department:");
+        print("Choose Department:");
         for (int i = 0; i < Department.values().length; i++) {
             print((i + 1) + ". " + Department.values()[i]);
         }
