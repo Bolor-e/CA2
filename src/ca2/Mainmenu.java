@@ -49,7 +49,7 @@ public class Mainmenu {
                     break;
                 case SEARCH_EMPLOYEES:
                     // Look for an employee by name
-                    print("Enter name to search: ");
+                    print("What name do you want to search: ");
                     String target = scanner.nextLine();
                     recursiveSort(employeeList, employeeList.size()); // Have to sort first for binary search
                     Employee found = binarySearch(employeeList, target);
@@ -152,7 +152,7 @@ public class Mainmenu {
 
     // Lets the user add a new employee manuallu
     public static void addEmployee() {
-        print("Enter name: ");
+        print("Please enter the name: ");
         String name = scanner.nextLine();
 
         //Pick a manager type
